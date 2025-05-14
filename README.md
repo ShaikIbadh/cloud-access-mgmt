@@ -1,4 +1,4 @@
-# ☁️ Cloud Service Access Management System
+#  Cloud Service Access Management System
 
 ### Team Member:
 - **Safdar Ibadh Shaik**  
@@ -7,7 +7,7 @@
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 cloud-access-mgmt/
@@ -28,30 +28,30 @@ cloud-access-mgmt/
 
 ## 🚀 How to Run
 
-### 1️⃣ Create and Activate a Virtual Environment
+### 1 Create and Activate a Virtual Environment
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 2️⃣ Install Dependencies
+### 2 Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Start MongoDB Locally (Homebrew - macOS)
+### 3 Start MongoDB Locally (Homebrew - macOS)
 ```bash
 brew tap mongodb/brew
 brew install mongodb-community
 brew services start mongodb/brew/mongodb-community
 ```
 
-### 4️⃣ Confirm MongoDB Is Running
+### 4 Confirm MongoDB Is Running
 ```bash
 mongosh
 ```
 
-### 5️⃣ Insert Admin User in MongoDB
+### 5 Insert Admin User in MongoDB
 ```javascript
 use cloud_service_db
 db.users.insertOne({
@@ -61,17 +61,17 @@ db.users.insertOne({
 })
 ```
 
-### 6️⃣ Run the FastAPI App
+### 6 Run the FastAPI App
 ```bash
 uvicorn app.main:app --reload
 ```
 
-### 7️⃣ Open Swagger UI in Your Browser
+### 7 Open Swagger UI in Your Browser
 ```
 http://127.0.0.1:8000/docs
 ```
 
-### 8️⃣ Authorize Using API Key
+### 8 Authorize Using API Key
 - Use the 🔒 **Authorize** button
 - Enter:
   ```
@@ -79,12 +79,6 @@ http://127.0.0.1:8000/docs
   ```
 
 You can now test all **Admin** and **Customer** endpoints from the Swagger interface.
-
----
-
-## ✅ Project Summary
-
-This project implements role-based access to cloud services using FastAPI and MongoDB. Admins can manage plans and users, while customers subscribe to plans and access quota-limited services.
 
 ---
 
