@@ -73,7 +73,7 @@ db.users.insertOne({
 uvicorn app.main:app --reload
 ```
 
-## 🔧 How to Use the API
+##  How to Use the API
 
 Once the app is running and you’ve opened Swagger UI at:
 ```
@@ -82,7 +82,7 @@ http://127.0.0.1:8000/docs
 
 Follow these steps:
 
-1. Click the 🔒 **Authorize** button on the top right.
+1. Click the **Authorize** button on the top right.
 2. Enter your API key `admin123` for Admin users or customer keys created via `/admin/users`.
 3. Test available API endpoints:
 
@@ -101,7 +101,7 @@ Follow these steps:
 - ...
 - `GET /services/service6` → Simulate using Service 6
 
-❗ If a user exceeds their plan quota, the API will respond with:
+ If a user exceeds their plan quota, the API will respond with:
 ```
 429 Too Many Requests
 ```
