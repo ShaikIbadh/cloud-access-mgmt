@@ -1,3 +1,4 @@
+# admin.py – route handlers for Admin APIs
 from fastapi import APIRouter, Depends, HTTPException, status
 from typing import List
 from bson import ObjectId
@@ -5,7 +6,7 @@ from .. import models
 from ..auth import require_admin
 from ..db import db
 
-router = APIRouter()
+router = APIRouter()  # Create router instance
 
 @router.get("/plans")
 async def list_plans(current_user = Depends(require_admin)):
