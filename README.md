@@ -36,9 +36,9 @@ cloud-access-mgmt/
 ##  How to Run
 
 ### 1 Create and Activate a Virtual Environment
-```bash
+```
 python3 -m venv venv
-source  venv/bin/activate
+source venv/bin/activate
 ```
 
 ### 2 Install Dependencies
