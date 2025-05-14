@@ -112,3 +112,4 @@ Follow these steps:
 ### Screenshots of API
 <img width="1440" alt="Screenshot 2025-05-14 at 12 32 07 PM" src="https://github.com/user-attachments/assets/d75781f5-9dc1-46ef-9c0a-3d1b42afcd9f" />
 <img width="1440" alt="Screenshot 2025-05-14 at 12 32 59 PM" src="https://github.com/user-attachments/assets/3da68e74-2393-4c67-945b-98c8e78db6c7" />
+<img width="720" alt="Screenshot 2025-05-14 at 1 49 29 PM" src="https://github.com/user-attachments/assets/d0560559-653f-491c-adb4-2a3f4ba1ed72" />
