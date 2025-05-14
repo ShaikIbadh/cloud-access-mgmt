@@ -1,3 +1,4 @@
+# models.py – Pydantic schemas for users, plans, and usage
 from pydantic import BaseModel, Field
 from typing import Optional
 
