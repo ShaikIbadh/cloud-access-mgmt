@@ -15,7 +15,7 @@ cloud-access-mgmt/
 │       ├── customer.py
 │       └── services.py
 ├── requirements.txt
-└── README.txt
+└── readme1.txt
 
 HOW TO RUN 
 
