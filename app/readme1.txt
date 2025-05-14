@@ -43,9 +43,32 @@ Insert Admin User in MongoDB
 Run the FastAPI App
     uvicorn app.main:app --reload
 
-Open Swagger UI in Your Browser
-     http://127.0.0.1:8000/docs
+How to Use the API
 
-Authorize Using API Key
-     pw: admin123
+Once the app is running and you’ve opened Swagger UI at:
+
+http://127.0.0.1:8000/docs
+Follow these steps:
+
+Click the Authorize button on the top right.
+Enter your API key admin123 for Admin users or customer keys created via /admin/users.
+Test available API endpoints:
+Admin API Examples:
+
+POST /admin/plans → Create a new subscription plan
+POST /admin/users → Create a new customer user
+PUT /admin/users/{id} → Update customer plan
+Customer API Examples:
+
+GET /customer/plans → View all available plans
+POST /customer/subscribe → Subscribe to a selected plan
+GET /customer/subscription → View usage & remaining quota
+Cloud Services (Quota-Protected):
+
+GET /services/service1 → Simulate using Service 1
+...
+GET /services/service6 → Simulate using Service 6
+If a user exceeds their plan quota, the API will respond with:
+
+429 Too Many Requests
 Then test all Admin and Customer endpoints from the Swagger interface.
