@@ -103,8 +103,12 @@ Follow these steps:
 
  If a user exceeds their plan quota, the API will respond with:
 ```
+
 429 Too Many Requests
 ```
 ---
 ###   ScreenShot of Terminal
 <img width="1440" alt="Screenshot 2025-05-14 at 12 30 08 PM" src="https://github.com/user-attachments/assets/a08e2248-2883-4cf3-804a-b044b4144688" />
+### Screenshots of API
+<img width="1440" alt="Screenshot 2025-05-14 at 12 32 07 PM" src="https://github.com/user-attachments/assets/d75781f5-9dc1-46ef-9c0a-3d1b42afcd9f" />
+<img width="1440" alt="Screenshot 2025-05-14 at 12 32 59 PM" src="https://github.com/user-attachments/assets/3da68e74-2393-4c67-945b-98c8e78db6c7" />
