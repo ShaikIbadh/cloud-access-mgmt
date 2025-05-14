@@ -1,10 +1,11 @@
+# customer.py – route handlers for Customer APIs
 from fastapi import APIRouter, Depends, HTTPException, status
 from typing import List
 from .. import models
 from ..auth import require_customer
 from ..db import db
 
-router = APIRouter()
+router = APIRouter()  # Create router instance
 
 @router.get("/plans", response_model=List[models.SubscriptionPlan])
 async def get_available_plans(current_user = Depends(require_customer)):
