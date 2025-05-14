@@ -59,7 +59,7 @@ mongosh
 ```
 
 ### 5 Insert Admin User in MongoDB
-```javascript
+```
 use cloud_service_db
 db.users.insertOne({
   name: "AdminSafdar",
