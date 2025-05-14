@@ -106,4 +106,5 @@ Follow these steps:
 429 Too Many Requests
 ```
 ---
-
+###   ScreenShot of Terminal
+<img width="1440" alt="Screenshot 2025-05-14 at 12 30 08 PM" src="https://github.com/user-attachments/assets/a08e2248-2883-4cf3-804a-b044b4144688" />
