@@ -1,8 +1,10 @@
+# auth.py – API key-based authentication and RBAC
 from fastapi import Depends, HTTPException, Security, status
 from fastapi.security.api_key import APIKeyHeader
 from .db import db
 
 API_KEY_NAME = "X-API-KEY"
+# Define X-API-KEY header for FastAPI Security
 api_key_header = APIKeyHeader(name=API_KEY_NAME, auto_error=False)
 
 async def get_current_user(api_key: str = Security(api_key_header)):
