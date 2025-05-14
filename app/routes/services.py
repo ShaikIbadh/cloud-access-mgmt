@@ -1,8 +1,9 @@
+# services.py – route handlers for Service APIs
 from fastapi import APIRouter, Depends, HTTPException, status
 from ..auth import get_current_user
 from ..db import db
 
-router = APIRouter()
+router = APIRouter()  # Create router instance
 
 @router.get("/service1")
 async def use_service1(current_user = Depends(get_current_user)):
