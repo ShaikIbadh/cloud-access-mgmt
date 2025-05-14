@@ -26,7 +26,7 @@ cloud-access-mgmt/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1 Create and Activate a Virtual Environment
 ```bash
@@ -72,7 +72,7 @@ http://127.0.0.1:8000/docs
 ```
 
 ### 8 Authorize Using API Key
-- Use the 🔒 **Authorize** button
+- Use the  **Authorize** button
 - Enter:
   ```
   admin123
