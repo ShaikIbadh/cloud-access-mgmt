@@ -6,6 +6,13 @@
   _(Individual Project)_
 
 ---
+## Project Description
+
+This project simulates a cloud service platform backend, developed using **FastAPI** and **MongoDB**.
+It allows:
+- Admins to create and manage subscription plans, register users, and assign quotas.
+- Customers to subscribe to available plans and consume cloud services within their allocated quotas.
+- Enforced role-based access control (RBAC) and real-time usage tracking.
 
 ##  Folder Structure
 
