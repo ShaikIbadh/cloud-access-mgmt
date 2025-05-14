@@ -77,12 +77,9 @@ http://127.0.0.1:8000/docs
   ```
   admin123
   ```
-Below is a screenshot of the terminal showing successful usage tracking, plan setup, and quota enforcement:
-
 
 
 You can now test all **Admin** and **Customer** endpoints from the Swagger interface.
-![Uploading Screenshot 2025-05-14 at 12.11.33 PM.png…]()
 
 ---
 
